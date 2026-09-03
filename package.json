@@ -1,0 +1,14 @@
+{
+  "name": "json-parser",
+  "private": true,
+  "scripts": {
+    "test": "bun test --only-failures --watch",
+    "bench": "bun run src/bench.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
